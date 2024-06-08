@@ -1,0 +1,77 @@
+.weather-card {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: auto;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.passage {
+    text-align: center;
+}
+
+.temperature-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: #c94038;
+    text-align: center;
+    border: 5px solid #c94038;
+
+}
+
+.temperature-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.real-feel {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.wind {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 3px solid gray;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.wind-direction {
+    font-size: 1rem;
+}
+
+.wind-speed {
+    font-size: 1rem;
+}
